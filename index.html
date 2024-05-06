@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!--Box Icons-->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+      <!--Box fonts-->
+      <link rel="stylesheet" href="/assets/styles/font.css">
+
+      <!-- Custom Css-->
+      <link rel="stylesheet" href="./assets/styles/style.css">
+      <link rel="stylesheet" href="./assets/styles/time_weather.css">
+      <link rel="stylesheet" href="./assets/styles/google_app.css"> 
+      <link rel="stylesheet" href="./assets/styles/todo_list.css">
+
+</head>
+<body >
+        <!-- project body-->
+        
+        <!-- header -->
+    <section class=" icon container"> 
+        <i class=' bx bxs-cog   distance_right_left icon_header'></i>
+        <i class='bx bxs-user distance_top_bottom  icon_header'></i>
+    </section>
+
+        <!-- time_weather -->
+    <section class=" parttion container">
+        <div class="time_weather distance_right_left ">  
+            <div class="box_time">
+                <h2 class="time "></h2>
+                <h3 class="date distance_top_bottom"></h3>
+                <div class="lunar_gregorian_date ">
+                  <span class="lunar"></span>
+                  <span class="gregorian"></span>
+                </div>
+                <div class="legal_timer distance_top_bottom">
+                  <select>
+                    <option>تایمر</option>
+                  </select>
+                  <select class="">
+                    <option>اوقات شرعی</option>
+                  </select>
+                </div>
+              </div>
+              <div class="box_weather">
+                <div class="temperature">
+                  <h1></h1>
+                  <i></i>
+                </div>
+                <h3></h3>
+                <div class="max_min distance_top_bottom">
+                  <span class="max"></span>
+                  <span class="min"></span>
+                </div>
+                <div class="forecast">
+                  <select class="distance_top_bottom">
+                    <option>پیش بینی</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- gpogle_app -->
+        <div class="google_app">
+            <section class="serch_box "> 
+                <section class="serch">
+                    <span class="magnifier_box distance">
+                    <i class='bx bx-search-alt-2 icon_magnifier'></i>
+                    </span> 
+                <input class="serch_google " placeholder="جستجو در گوگل">
+                <img class="icon_google" src="./assets/images/icon_google.png">
+                </section>
+            </section>
+            <div class="app_box">
+                <a class="app">
+                   <i class="bx bxs-grid grid"></i>
+                    <p>دم دستی</p> 
+                </a>
+                <a class="app"> 
+                  <img class="logo" src="./assets/images/moon.png"> 
+                  <p>شب</p>
+                </a>
+                <a class="app" href="https://discord.com/"> 
+                  <img class="logo" src="./assets/images/discord.png">
+                   <p>دیسکورد</p> 
+                </a>
+                <a class="app" href="https://divar.ir/"> 
+                  <img class="logo" src="./assets/images/divar.png">
+                   <p>دیوار</p>
+                </a>
+                <a class="app"> 
+                  <span class="positive">+</span>
+                </a>
+                <a class="app"> 
+                  <span class="positive">+</span>
+                </a>
+                <a class="app"> 
+                  <span class="positive">+</span> 
+                </a>
+                <a class="app"> 
+                  <span class="positive">+</span> 
+                </a>
+                <a class="app"> 
+                  <span class="positive">+</span> 
+                </a>
+                <a class="app"> 
+                  <span class="positive">+</span> 
+                </a>
+                <a class="app"> 
+                  <span class="positive">+</span> 
+                </a>
+                <a class="app"> 
+                  <span class="positive">+</span> 
+                </a>
+            </div>
+        </div>
+
+        <!-- todo_list -->
+        <div class="todo_list distance_right_left">
+            <section>
+            <h1 class="titr_todo "> دست نویس  
+              <span class="box_hide">
+                <i class='bx bxs-hide icon_hide' ></i>
+              </span>
+            </h1>
+            <div class="box_tasks">
+                <ul class="toDoList"></ul>
+              </div>
+              <div class="box_task">
+                <form>
+                  <div class="box_add_task">
+                    <input type="text" placeholder="نوشتن تسک جدید" />
+                    <button>
+                      <i class="bx bx-plus"></i>
+                    </button>
+                  </div>
+                </form>
+            </div>
+            </section>
+    </section>
+
+          <!--Js-->
+    <script src="./assets/scripts/date.js"></script>
+    <script src="./assets/scripts/time.js"></script>
+    <script src="./assets/scripts/todo.js"></script>
+    <script src="./assets/scripts/weather.js"></script>
+
+</body>
+</html>

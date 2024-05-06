@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color1:#C4DEF7;
+    --primary-color2:white;
+    --primary-color3:cornflowerblue;
+    --primary-color4:rgba(0, 0, 0, 0.122);
+    --primary-color5:#6b7280;
+}
+
+body{
+    background-color: var(--primary-color1);
+    font-family: 'MyFont', sans-serif;
+}
+
+.container{
+    max-width: 1124px;
+    margin: 0 auto;
+}
+ 
+.parttion{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  text-align: right;
+}
+.icon{
+    color:var(--primary-color2);
+    font-size: 2rem;
+}
+
+.icon_header:hover{
+    cursor: pointer;
+    color: var(--primary-color5);
+}
+
+.distance{
+    margin: 16px;
+}
+
+.distance_top_bottom{
+    margin: 16px 0;
+}
+
+.distance_right_left{
+    margin: 0 16px;
+}
+
+  @media (max-width: 600px){
+    .parttion{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3,0.6fr);
+  }
+  .google_app{
+    margin: 0 20px;
+  }
+  }
+
+  
+
+
+
+
+
+
+

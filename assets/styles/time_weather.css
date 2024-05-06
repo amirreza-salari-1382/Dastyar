@@ -1,0 +1,109 @@
+.time_weather{
+    background-color: var(--primary-color2);
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    direction: rtl;
+    border-radius: 24px;
+    height: 40vh;
+}
+
+.box_time {
+    border-bottom: 2px solid var(--primary-color4);
+    border-left: 2px solid var(--primary-color4);
+    padding: 5px;
+  }
+
+.time{
+    text-align: center;
+    color:dodgerblue;
+    font-size:2rem;
+    margin-top: 10px;
+  }
+
+.date{
+    text-align: center;
+    display: block;
+    color: var(--primary-color3);
+    font-size:1.3rem;
+  }
+
+.lunar_gregorian_date{
+    display: flex;
+  }
+
+.lunar_gregorian_date span {
+    width: 50%;
+    font-size: 0.6rem;
+    color: var(--primary-color5);
+  }
+
+.gregorian{
+    direction: ltr;
+  }
+
+.gregorian::after{
+    content: "";
+    width: 1px;
+    height: 9px;
+    display: inline-block;
+    background-color: var(--primary-color5);
+    margin-left: 5px;
+  }
+
+.legal_timer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+  }
+
+.box_weather {
+    padding: 10px 2px;
+    border-bottom: 2px solid var(--primary-color4);
+    padding: 10px;
+  }
+
+.temperature {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.temperature h1 {
+    color: dimgray;
+    font-size: 2rem;
+  }
+
+.temperature i img {
+    width: 50px;
+    height: 50px;
+  }
+
+.box_weather h3 {
+    font-size:0.8rem;
+    text-align: center;
+  }
+
+.max_min {
+    text-align: center;
+  }
+
+.max_min span {
+    color: var(--primary-color5);
+    font-size: 0.8rem;
+  }
+
+.forecast {
+    text-align: center;
+  }
+
+.legal_timer select,.forecast select {
+    border-radius: 20px;
+    border: 2px solid var(--primary-color4);
+    color: var(--primary-color5);
+  }
+
+select:hover {
+    cursor: pointer;
+  }
+  

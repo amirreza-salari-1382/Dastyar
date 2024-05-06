@@ -1,0 +1,80 @@
+.serch_box{
+    background-color: var(--primary-color2);
+    border-radius: 24px;
+    text-align: center;
+    padding:16px;
+}
+
+.serch{
+    border-radius: 50px;
+    background-color: var(--primary-color4);
+    display: flex;
+    align-items: center;
+}
+
+.icon_google{
+    width: 25px;
+    height: 25px;
+    margin: 0 7px;
+}
+
+.magnifier_box{
+    background-color:var(--primary-color3);
+    padding:5px 0;
+    width:50px;
+    border-radius: 24px;
+}
+
+.icon_magnifier{
+    color: white;
+    font-size: 20px;
+}
+
+.icon_magnifier:hover{
+    cursor: pointer;
+}
+
+.serch_google{
+    width: 80%;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'MyFont', sans-serif;
+}
+
+.app_box{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 12px;
+    direction: rtl;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.app{
+    background-color: var(--primary-color2);
+    border-radius: 12px;
+    text-align: center;
+    height: 85px;
+    padding-top:30%;
+}
+
+.app{
+    cursor: pointer;
+}
+
+.grid{
+    font-size: 2rem;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+}
+
+.positive{
+    color: var(--primary-color5);
+    font-size: 2rem;
+}
